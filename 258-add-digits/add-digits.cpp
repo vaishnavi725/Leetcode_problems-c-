@@ -5,7 +5,8 @@ public:
             int sum = 0;
             
             while(num > 0){
-                sum += num % 10;
+                int d= num % 10;
+                sum=sum+d;
                 num /= 10;
             }
             
